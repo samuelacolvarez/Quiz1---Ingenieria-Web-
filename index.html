@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1 - IW</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+
+    <h1 id="h1">EXAMEN WEB 3</h1>
+
+    <form id="profileForm">
+        <label for="name" >Nombre:</label>
+        <input type="text" id="nameInput" required minlength="3" placeholder="Ingrese su nombre"><br><br>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="ageInput" required min="1" max="120" placeholder="N°"><br><br>
+
+        <label for="careerSelect">Carrera:</label>
+        <select id="careerSelect" required>
+            <option value="">Seleccione una carrera</option>
+            <option value="Ingeniería de Sistemas">Ingeniería de Sistemas</option>
+            <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+            <option value="Ingeniería Civil">Ingeniería Civil</option>
+        </select><br><br>
+
+        <button type="submit"> Crear perfil </button>
+
+    </form>
+
+    
+    <section class = "card">
+        <h2 id="profileTitle"></h2> 
+        <p id="profileText"></p>
+        <p id="msg"></p>
+    </section>
+
+    <br><br>
+
+    <footer>Entrega: WEB-03 | GRUPO: Supletorio  | CÓDIGO: </footer>
+
+    <script src="java.js"></script>
+
+   
+    
+</body>
+</html>
